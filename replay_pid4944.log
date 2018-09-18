@@ -1,0 +1,108 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 170 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 872437 0 0
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 4097 1 12389 0 -1
+ciMethod java/lang/String hashCode ()I 2825 32769 1125 0 320
+ciMethod java/util/Map remove (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/List iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/ArrayList iterator ()Ljava/util/Iterator; 4097 1 27712 0 192
+ciMethod java/util/ArrayList access$100 (Ljava/util/ArrayList;)I 1345 1 168 0 0
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 3313 1 288503 0 224
+ciMethod java/util/HashMap remove (Ljava/lang/Object;)Ljava/lang/Object; 4097 1 549 0 0
+ciMethod java/util/HashMap removeNode (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/util/HashMap$Node; 4097 1 7965 0 608
+ciMethod java/util/HashMap afterNodeRemoval (Ljava/util/HashMap$Node;)V 1665 1 208 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethodData java/lang/Object <init> ()V 2 872471 orig 264 88 66 115 95 0 0 0 0 104 4 59 37 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 185 112 106 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 1089 1 8298 0 -1
+ciMethod java/util/HashMap$TreeNode removeTreeNode (Ljava/util/HashMap;[Ljava/util/HashMap$Node;Z)V 0 0 1 0 -1
+ciMethodData java/lang/String hashCode ()I 2 21096 orig 264 88 66 115 95 0 0 0 0 40 77 59 37 0 0 0 0 152 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 33 24 0 0 65 19 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 2 0 0 0 120 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 15 0x60007 0x149 0x78 0x1bb 0xe0007 0x3 0x58 0x1b8 0x1e0007 0x1b8 0x38 0x4264 0x2d0003 0x4264 0xffffffffffffffe0 oops 0
+ciMethodData java/util/HashMap hash (Ljava/lang/Object;)I 2 288503 orig 264 88 66 115 95 0 0 0 0 88 7 73 37 0 0 0 0 176 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158 1 0 0 201 42 35 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 104 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 13 0x10007 0x46559 0x38 0x0 0x50003 0x0 0x48 0x90005 0x1b4bc 0x2caa5e0 0x2ad4d 0x25da5640 0x89 oops 2 9 java/lang/String 11 java/security/CodeSource
+ciMethod java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;)V 4097 1 35443 0 0
+ciMethod java/util/ArrayList$Itr hasNext ()Z 2393 1 21333 0 96
+ciMethod java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;Ljava/util/ArrayList$1;)V 4097 1 35443 0 96
+ciMethod edu/stanford/nlp/util/Pair second ()Ljava/lang/Object; 3513 1 439 0 -1
+ciMethodData java/util/ArrayList$Itr hasNext ()Z 2 21333 orig 264 88 66 115 95 0 0 0 0 32 132 102 37 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 39 1 0 0 81 145 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 72 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 9 0x80002 0x522a 0xb0007 0x1e6d 0x38 0x33bd 0xf0003 0x33bd 0x18 oops 0
+ciMethodData java/util/ArrayList iterator ()Ljava/util/Iterator; 2 27712 orig 264 88 66 115 95 0 0 0 0 80 151 71 37 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 82 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x6a40 oops 0
+ciMethodData java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;Ljava/util/ArrayList$1;)V 2 35443 orig 264 88 66 115 95 0 0 0 0 232 135 102 37 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 153 67 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x8873 oops 0
+ciMethodData java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;)V 2 35443 orig 264 88 66 115 95 0 0 0 0 128 131 102 37 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 153 67 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x8873 oops 0
+ciMethod edu/stanford/nlp/trees/tregex/DescriptionPattern access$000 (Ledu/stanford/nlp/trees/tregex/DescriptionPattern;)Ledu/stanford/nlp/trees/tregex/Relation; 1665 1 208 0 0
+ciMethod edu/stanford/nlp/trees/tregex/DescriptionPattern access$300 (Ledu/stanford/nlp/trees/tregex/DescriptionPattern;)Z 1033 1 129 0 0
+ciMethod edu/stanford/nlp/trees/tregex/DescriptionPattern access$600 (Ledu/stanford/nlp/trees/tregex/DescriptionPattern;)Ljava/lang/String; 1409 1 176 0 0
+ciMethod edu/stanford/nlp/trees/tregex/DescriptionPattern access$800 (Ledu/stanford/nlp/trees/tregex/DescriptionPattern;)Ljava/util/regex/Pattern; 1457 1 182 0 0
+ciMethod edu/stanford/nlp/trees/tregex/DescriptionPattern access$1000 (Ledu/stanford/nlp/trees/tregex/DescriptionPattern;)Ljava/util/List; 1033 1 129 0 0
+ciMethod edu/stanford/nlp/trees/tregex/Relation searchNodeIterator (Ledu/stanford/nlp/trees/Tree;Ledu/stanford/nlp/trees/tregex/TregexMatcher;)Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod edu/stanford/nlp/trees/tregex/TregexMatcher resetChildIter ()V 0 0 1 0 -1
+ciMethod edu/stanford/nlp/trees/tregex/DescriptionPattern$DescriptionMatcher resetChildIter ()V 2073 1 10782 0 1824
+ciMethod edu/stanford/nlp/trees/tregex/DescriptionPattern$DescriptionMatcher decommitVariableGroups ()V 2057 1 6201 0 160
+ciMethod edu/stanford/nlp/trees/tregex/DescriptionPattern$DescriptionMatcher removeNamedNodes ()V 3281 1 7083 0 512
+ciMethod edu/stanford/nlp/trees/tregex/CoordinationPattern$CoordinationMatcher resetChildIter ()V 3617 11817 5632 0 0
+ciMethod edu/stanford/nlp/trees/tregex/VariableStrings unsetVar (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethodData edu/stanford/nlp/trees/tregex/DescriptionPattern$DescriptionMatcher decommitVariableGroups ()V 2 6201 orig 264 88 66 115 95 0 0 0 0 0 42 178 37 0 0 0 0 0 3 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 193 185 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 9 0 2 0 0 0 184 1 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 55 0x40007 0x1597 0x1b8 0x1a1 0xb0002 0x1a1 0xe0005 0x0 0x28d56330 0x1a1 0x0 0x0 0x150005 0x0 0x28d563e0 0x1a1 0x0 0x0 0x1a0007 0x1a1 0x128 0x0 0x1e0005 0x0 0x0 0x0 0x0 0x0 0x230004 0x0 0x0 0x0 0x0 0x0 0x2c0005 0x0 0x0 0x0 0x0 0x0 0x2f0004 0x0 0x0 0x0 0x0 0x0 0x320005 0x0 0x0 0x0 0x0 0x0 0x350003 0x0 0xfffffffffffffec0 oops 2 8 java/util/ArrayList 14 java/util/ArrayList$Itr
+ciMethodData edu/stanford/nlp/trees/tregex/DescriptionPattern$DescriptionMatcher removeNamedNodes ()V 2 7083 orig 264 88 66 115 95 0 0 0 0 232 42 178 37 0 0 0 0 24 2 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 154 1 0 0 137 208 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 208 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 26 0x40002 0x1a11 0x70007 0x549 0x50 0x14c8 0xe0002 0x14c8 0x110007 0x14c8 0x90 0x0 0x180002 0x549 0x1b0007 0x382 0x60 0x1c7 0x260002 0x1c7 0x290005 0x0 0x292b2ac0 0x1c7 0x0 0x0 oops 1 22 java/util/HashMap
+ciMethodData edu/stanford/nlp/trees/tregex/DescriptionPattern$DescriptionMatcher resetChildIter ()V 2 10782 orig 264 88 66 115 95 0 0 0 0 248 32 178 37 0 0 0 0 248 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 217 72 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 176 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 22 0x10002 0x291b 0x50002 0x291b 0xd0002 0x291b 0x150005 0x3b8 0x29021ba0 0x1b29 0x29021c50 0xa3a 0x290007 0x27dd 0x50 0x13e 0x300005 0x0 0x2901b9d0 0xd8 0x2901be00 0x66 oops 4 8 edu/stanford/nlp/trees/tregex/Relation$1 10 edu/stanford/nlp/trees/tregex/Relation$6 18 edu/stanford/nlp/trees/tregex/CoordinationPattern$CoordinationMatcher 20 edu/stanford/nlp/trees/tregex/DescriptionPattern$DescriptionMatcher
+ciMethodData java/util/HashMap remove (Ljava/lang/Object;)Ljava/lang/Object; 1 549 orig 264 88 66 115 95 0 0 0 0 176 23 73 37 0 0 0 0 200 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 41 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 120 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 15 0x20002 0x25 0x90005 0x25 0x0 0x0 0x0 0x0 0xe0007 0x1 0x38 0x24 0x120003 0x24 0x18 oops 0
+ciMethodData java/util/HashMap removeNode (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/util/HashMap$Node; 2 7965 orig 264 88 66 115 95 0 0 0 0 96 25 73 37 0 0 0 0 152 6 0 0 224 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 233 232 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 62 0 2 0 0 0 40 5 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 165 0x70007 0x1b88 0x528 0x195 0x100007 0x0 0x508 0x195 0x220007 0xca 0x4e8 0xcb 0x2e0007 0x0 0xc8 0xcb 0x3a0007 0xcb 0x90 0x0 0x3e0007 0x0 0x88 0x0 0x440005 0x0 0x0 0x0 0x0 0x0 0x470007 0x0 0x38 0x0 0x4e0003 0xcb 0x1e8 0x590007 0x0 0x1d0 0x0 0x5e0004 0x0 0x0 0x0 0x0 0x0 0x610007 0x0 0x98 0x0 0x660004 0x0 0x0 0x0 0x0 0x0 0x6b0005 0x0 0x0 0x0 0x0 0x0 0x700003 0x0 0x100 0x790007 0x0 0xc8 0x0 0x850007 0x0 0x90 0x0 0x890007 0x0 0x88 0x0 0x8f0005 0x0 0x0 0x0 0x0 0x0 0x920007 0x0 0x38 0x0 0x990003 0x0 0x38 0xa80007 0x0 0xffffffffffffff38 0x0 0xad0007 0x0 0x230 0xcb 0xb20007 0xcb 0xb0 0x0 0xbe0007 0x0 0x90 0x0 0xc20007 0x0 0x1d0 0x0 0xc80005 0x0 0x0 0x0 0x0 0x0 0xcb0007 0x0 0x180 0x0 0xd00004 0xffffffffffffff35 0x28a96290 0x1 0x0 0x0 0xd30007 0xcb 0x98 0x0 0xd80004 0x0 0x0 0x0 0x0 0x0 0xe00005 0x0 0x0 0x0 0x0 0x0 0xe30003 0x0 0x80 0xea0007 0x0 0x68 0xcb 0xf60104 0x0 0x0 0x0 0x0 0x0 0xf70003 0xcb 0x18 0x11b0005 0x0 0x292b2ac0 0xcb 0x0 0x0 oops 2 123 java/util/HashMap$Node 161 java/util/HashMap
+ciMethodData edu/stanford/nlp/trees/tregex/CoordinationPattern$CoordinationMatcher resetChildIter ()V 2 12416 orig 264 88 66 115 95 0 0 0 0 224 198 181 37 0 0 0 0 208 1 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 197 5 0 0 225 161 0 0 217 85 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 9 0 2 0 0 0 136 0 0 0 255 255 255 255 7 0 17 0 0 0 0 0 data 17 0x110007 0x143c 0x88 0x2abb 0x1b0007 0x15a1 0x50 0x151a 0x200005 0x0 0x2901be00 0x1514 0x2901b9d0 0x6 0x260003 0x2abb 0xffffffffffffff90 oops 2 10 edu/stanford/nlp/trees/tregex/DescriptionPattern$DescriptionMatcher 12 edu/stanford/nlp/trees/tregex/CoordinationPattern$CoordinationMatcher
+instanceKlass read_write/WriteFile
+instanceKlass edu/stanford/nlp/semgraph/SemanticGraphEdge$SemanticGraphEdgeTargetComparator
+instanceKlass edu/stanford/nlp/semgraph/SemanticGraphEdge
+instanceKlass edu/stanford/nlp/trees/GrammaticalStructure$NameComparator
+instanceKlass edu/stanford/nlp/process/WordShapeClassifier
+instanceKlass org/apache/commons/lang3/StringUtils
+instanceKlass edu/stanford/nlp/semgraph/SemanticGraphCoreAnnotations$CollapsedCCProcessedDependenciesAnnotation
+instanceKlass edu/stanford/nlp/semgraph/SemanticGraphCoreAnnotations$BasicDependenciesAnnotation
+instanceKlass edu/stanford/nlp/semgraph/SemanticGraphCoreAnnotations$CollapsedDependenciesAnnotation
+instanceKlass edu/stanford/nlp/graph/DirectedMultiGraph
+instanceKlass edu/stanford/nlp/graph/Graph
+instanceKlass edu/stanford/nlp/semgraph/SemanticGraphFormatter
+instanceKlass edu/stanford/nlp/semgraph/SemanticGraph
+instanceKlass java/util/concurrent/ConcurrentHashMap$Traverser
+instanceKlass java/util/TreeMap$PrivateEntryIterator
+instanceKlass java/util/NavigableSet
+instanceKlass java/util/SortedSet
+instanceKlass edu/stanford/nlp/ling/CoreAnnotations$ProjectedCategoryAnnotation
+instanceKlass edu/stanford/nlp/semgraph/SemanticGraphFactory
+instanceKlass edu/stanford/nlp/trees/TypedDependency
+instanceKlass edu/stanford/nlp/trees/GrammaticalStructure$NoPunctTypedDependencyFilter
+instanceKlass edu/stanford/nlp/trees/GrammaticalStructure$NoPunctFilter
+instanceKlass edu/stanford/nlp/trees/TreeCoreAnnotations$HeadTagAnnotation
+instanceKlass edu/stanford/nlp/trees/TreeCoreAnnotations$HeadWordAnnotation
+instanceKlass java/util/concurrent/locks/ReentrantReadWriteLock$WriteLock
+instanceKlass java/util/concurrent/locks/ReentrantReadWriteLock$ReadLock
+instanceKlass java/util/concurrent/locks/ReentrantReadWriteLock
+instanceKlass edu/stanford/nlp/util/ArrayStringFilter
+instanceKlass edu/stanford/nlp/trees/GrammaticalRelation$GrammaticalRelationAnnotation
+instanceKlass java/util/EnumMap$1
+instanceKlass edu/stanford/nlp/trees/GrammaticalRelation
+instanceKlass java/util/concurrent/locks/ReadWriteLock
+instanceKlass edu/stanford/nlp/trees/EnglishGrammaticalRelations
+instanceKlass edu/stanford/nlp/trees/tregex/DescriptionPattern$1
+instanceKlass edu/stanford/nlp/trees/Tree$TreeIterator
+instanceKlass edu/stanford/nlp/trees/tregex/Relation$SearchNodeIterator
+instanceKlass edu/stanford/nlp/stats/IntCounter$NaturalComparator
+instanceKlass edu/stanford/nlp/stats/AbstractCounter
+instanceKlass edu/stanford/nlp/trees/tregex/VariableStrings
+instanceKlass edu/stanford/nlp/trees/DateTreeTransformer
+instanceKlass edu/stanford/nlp/trees/QPTreeTransformer
+instanceKlass edu/stanford/nlp/trees/DependencyTreeTransformer
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/CoindexationGenerator
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/SimpleNode
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/Token
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/TsurgeonParserTokenManager
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/SimpleCharStream
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/TsurgeonParser$JJCalls
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/JJTTsurgeonParserState
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/Node
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/TsurgeonParser
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/TsurgeonParserConstants
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/TsurgeonParserTreeConstants
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/Tsurgeon
+instanceKlass edu/stanford/nlp/trees/tregex/tsurgeon/TsurgeonPattern
+instanceKlass edu/stanford/nlp/util/Interner
+instanceKlass edu/stanford/nlp/trees/tregex/TregexMatcher
+instanceKlass edu/stanford/nlp/trees/tregex/Relation
+instanceKlass edu/stanford/nlp/trees/tregex/Token
